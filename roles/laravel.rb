@@ -1,0 +1,5 @@
+include_recipe "../cookbooks/php/default.rb"
+include_recipe "../cookbooks/php-fpm/default.rb"
+include_recipe "../cookbooks/composer/default.rb"
+include_recipe "../cookbooks/nginx/default.rb"
+include_recipe "../cookbooks/laravel/default.rb"
